@@ -69,3 +69,8 @@ q.put(3)
 
 first = q.get() 
 print(first)
+
+q.task_done()
+q.join()
+
+print('end main')
